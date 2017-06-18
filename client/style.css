@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+  color: #303030;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 20px;
+}
+
+main {
+  background-color: #f0f0f0;
+  margin: 20px auto;
+  max-width: 650px;
+  padding: 20px;
+  border: solid;
+}
+#button{
+  height: 30px;
+  width: 60px;
+}
+#initials {
+  width: 40px;
+  border-radius: 10px;
+  height: 30px;
+}
+#history{
+  list-style-type: none;
+}
+li:nth-child(odd) {
+    color: white;
+    background-color: #949;
+    padding: 15px;
+}
+li:nth-child(even) {
+    color: white;
+    padding: 15px;
+    background-color: #999;
+}
+#message {
+  border-radius: 10px;
+  height: 30px;
+  width: 350px;
+}
+.messages, .type.here{
+  margin: auto;
+  width: 90%;
+}
+#textbox{
+  background: darkgray;
+  padding: 20px;
+  border-radius: 20px;
+}
